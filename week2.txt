@@ -1,1 +1,30 @@
-dfoldsfkol
+1.ตัวแปร
+    -ตัวอักษรแรกต้องเป็นอักขระ
+    -ห้ามตั้งชื่อซ้ำกับkeywordในC
+    -ต้งให้อ่านแล้วเข้าใจ
+2.Data Type
+    -char(1B)
+    -int(4B)
+    -float(4B)
+    -double(8B)
+    -short(ลดขนาด)
+    -long(เพิ่มขนาด)
+    -signed(ให้ผลเหมือนเดิม)
+    -unsinged(เก็บแค่ค่าบวก)
+3.ค่าคงที่
+    -char(อักขระ1ตัว)
+    -string(อักขระกี่ตัวก็ได้)
+    -int(จำนวนเต็ม)
+    -float(จำนวนจริง)
+    -double(จำนวนจริง)
+    -0(ฐาน8) (%o)
+    -0x(ฐาน16) (%x)
+4.การใช้ตัวแปร
+    -ตัวแปรต้องประกาศก่อนใช้
+    -printf() (outputไม่เว้นบรรทัด)
+    -puts() (outputเว้นบรรทัด)
+5.Arithmetic Operater (+ - * / %)
+6.Relational Operator (> >= < <= == !=)
+7.Logical Operator (&& || !)
+8.Increment and Decrement Operators (n++ ++n n-- --n)
+9.Bitwise Operators (& | ^ << >> ~)
