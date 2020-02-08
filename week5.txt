@@ -1,0 +1,16 @@
+Scope Rule 
+    local (อยู่ในฟังก์ชั่นถ้าอยู่นอกฟังก์ชั่นจะไม่มีค่า)
+    global (อยู่ในหรือนอกก็มีค่า)
+
+Separate Compilation
+เช่น
+int global = 10;
+int main()
+{ extern int my_sqr(int);
+printf("value returned from my_sqr = %d\n", my_sqr(5));
+}
+int my_sqr(int arg)
+{ extern int global;
+printf("inside my_sqr(): global = %d\n", global);
+return arg * arg;
+}
