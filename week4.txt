@@ -1,0 +1,30 @@
+Function
+    เช่น
+return-value-type function-name( parameter-list )
+{
+declarations
+statement
+statement
+:
+}
+
+Return values
+เช่น
+return 5;              (=5)
+return (x > 5);        (x>5)
+return (myFunction()); (วนซ้ำ)
+
+Recursion (การวนซ้ำ)
+เช่น การหาFactorial
+long factorial(long n)
+{
+if (n == 0)
+return 1;
+else
+return n * factorial(n-1);
+}
+int main()
+{ long n;
+n = 6;
+printf("%ld! = %ld\n", n, factorial(n));
+}
