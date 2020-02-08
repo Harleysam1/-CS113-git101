@@ -1,0 +1,12 @@
+Linked Lists
+เป็นโครงสร้างข้อมูลทีใช้ในการเก็บข้อมูล โดยจะเชื่อมกันเป็นสาย
+Structure เป็นการการกำหนดรูปแบบข้อมูล
+    struct student std;
+    struct student another_std = {"6211140123", "Josh Smith", 18};
+การเข้าถึงข้อมูล
+struct student std, *p_std;
+p_std = &std;
+printf("%s\n", (*p_std).name);
+(*p_std).age = 21;
+typedef
+เป็นการกำหนดประเภทข้อมูลขึ้นมา
