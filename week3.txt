@@ -1,0 +1,10 @@
+Statements and Blocks
+    -ต้องปิดท้ายด้วย semi-colon เช่น x=0 --> x=0;
+    -ต้องใส่ปีกกาในการใช้ฟังก์ชั่น
+    -If-Else
+    -Else-If (มีifหลายอัน)
+    -Switch (ใช้ตรวจinputว่าตรงกับค่าคงที่ไหม)
+    -While & For 
+    -Do-While
+    -Break & Continue
+
