@@ -1,0 +1,23 @@
+Pointers & Addresses
+โปรแกรมเมอรสามารถเข้าและจัดการหน่วยความจําได้โดยตรงด้วยการใช้ pointers
+เช่น
+int c;
+int *p;
+p = &c;
+Pointer Operators
+& = address operator
+* = dereferencing operator
+scanf()
+    int input;
+    scanf("%d", &input);
+Expressions and Pointer Arithmetic
+int v[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+int *pv;
+pv = v; //นิพจน์ในการกำาหนดค่า//
+pv = pv + 2; //นิพจน์ทางคณิตศาสตร์//
+printf("%d\n, pv - v);
+pv++;
+printf("%d\n, pv - v);
+
+Dynamic Memory Allocation
+malloc() และ free() เพอจองและคืนพื้นที่ในหน่วยความจําได้
